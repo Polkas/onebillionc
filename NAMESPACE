@@ -1,0 +1,2 @@
+useDynLib(onebillionc, .registration=TRUE)
+export(calculate_stats)

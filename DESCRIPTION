@@ -1,0 +1,15 @@
+Package: onebillionc
+Type: Package
+Title: One Billion Row Challenge in R
+Version: 0.1.0
+Authors@R: 
+    person(given = "Maciej",
+           family = "Nasinski",
+           role = c("aut", "cre"),
+           email = "nasinski.maciej@gmail.com")
+Maintainer: Maciej Nasinski <nasinski.maciej@gmail.com>
+Description: One Billion Row Challenge in R, by internal C code.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.1
