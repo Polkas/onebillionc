@@ -8,7 +8,9 @@ The performance of C based code exported to R is similar to DuckDb.
 # devtools::install()
 library(onebillionc)
 
-system.time(result <- calculate_stats(path.expand("~/python-1-billion-row-challenge/measurements.txt")))
+# you can generate the data with 
+# https://github.com/darioradecic/python-1-billion-row-challenge/blob/main/data/createMeasurements.py
+result <- calculate_stats(path.expand("~/python-1-billion-row-challenge/measurements.txt"))
 
 station_names <- result[[1]]
 min_temps <- result[[2]]
