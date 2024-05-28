@@ -4,7 +4,7 @@ The src C code was created with ChatGPT support, in less than 1hour.
 The solution is inspired by https://github.com/dannyvankooten/1brc/blob/main/7.c . The `parse_float` was needed to overcome limitations of `atof`. The solution is compiled with -O3.
 The performance of C based code exported to R is similar to DuckDb.
 
-```{r}
+```r
 # devtools::install()
 library(onebillionc)
 
