@@ -1,8 +1,9 @@
 # R One Billion Row Challenge
 
-The src C code was created with ChatGPT support, in less than 1hour.
-The solution is inspired by https://github.com/dannyvankooten/1brc/blob/main/7.c . The `parse_float` was needed to overcome limitations of `atof`. The solution is compiled with -O3.
-The performance of C based code exported to R is similar to DuckDb.
+The src C code was created with ChatGPT support, in less than 1hour.  
+The solution is inspired by https://github.com/dannyvankooten/1brc/blob/main/7.c .  The `parse_float` was needed to overcome limitations of `atof`. The solution is compiled with -O3.  
+The performance of C based code exported to R is similar to DuckDb.  
+[Please access here benchmarks](https://www.appsilon.com/post/r-one-billion-row-challenge?utm_source=social&utm_medium=linkedin&utm_campaign=blog&utm_term=appsilon-account).
 
 ```r
 # devtools::install()
